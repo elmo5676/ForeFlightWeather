@@ -7,25 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E1EB3EE2406240800CA7D10 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1EB3ED2406240800CA7D10 /* UIButton+Extension.swift */; };
+		6E1EB3F124062D2E00CA7D10 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1EB3F024062D2E00CA7D10 /* UIViewController+Extension.swift */; };
+		6E1EB3F3240636DE00CA7D10 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1EB3F2240636DE00CA7D10 /* DetailVC.swift */; };
+		6E1EB3F52406445D00CA7D10 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1EB3F42406445D00CA7D10 /* Double+Extension.swift */; };
+		6E6FEF0724065A04002681E7 /* WindsaloftCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEEFF24065A04002681E7 /* WindsaloftCD+CoreDataClass.swift */; };
+		6E6FEF0824065A04002681E7 /* WindsaloftCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEF0024065A04002681E7 /* WindsaloftCD+CoreDataProperties.swift */; };
+		6E6FEF0924065A04002681E7 /* ForecastconditionCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEF0124065A04002681E7 /* ForecastconditionCD+CoreDataClass.swift */; };
+		6E6FEF0A24065A04002681E7 /* ForecastconditionCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEF0224065A04002681E7 /* ForecastconditionCD+CoreDataProperties.swift */; };
+		6E6FEF0B24065A04002681E7 /* ForecastmainCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEF0324065A04002681E7 /* ForecastmainCD+CoreDataClass.swift */; };
+		6E6FEF0C24065A04002681E7 /* ForecastmainCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEF0424065A04002681E7 /* ForecastmainCD+CoreDataProperties.swift */; };
+		6E6FEF0D24065A04002681E7 /* ConditionsCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEF0524065A04002681E7 /* ConditionsCD+CoreDataClass.swift */; };
+		6E6FEF0E24065A04002681E7 /* ConditionsCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEF0624065A04002681E7 /* ConditionsCD+CoreDataProperties.swift */; };
+		6EA9E84A24061D5A001FF67B /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA9E84024061D5A001FF67B /* Forecast.swift */; };
+		6EA9E84B24061D5A001FF67B /* Mos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA9E84124061D5A001FF67B /* Mos.swift */; };
+		6EA9E84C24061D5A001FF67B /* WindsAloft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA9E84224061D5A001FF67B /* WindsAloft.swift */; };
+		6EA9E84D24061D5A001FF67B /* Conditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA9E84324061D5A001FF67B /* Conditions.swift */; };
+		6EA9E84E24061D5A001FF67B /* Supporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA9E84524061D5A001FF67B /* Supporting.swift */; };
+		6EA9E84F24061D5A001FF67B /* WeatherDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA9E84624061D5A001FF67B /* WeatherDownloader.swift */; };
+		6EA9E85024061D5A001FF67B /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA9E84824061D5A001FF67B /* Report.swift */; };
+		6EA9E85124061D5A001FF67B /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA9E84924061D5A001FF67B /* Weather.swift */; };
 		6EC7D40B2405975700BF55CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7D40A2405975700BF55CA /* AppDelegate.swift */; };
 		6EC7D40D2405975700BF55CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7D40C2405975700BF55CA /* SceneDelegate.swift */; };
 		6EC7D40F2405975700BF55CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7D40E2405975700BF55CA /* ViewController.swift */; };
 		6EC7D4122405975700BF55CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC7D4102405975700BF55CA /* Main.storyboard */; };
-		6EC7D4152405975700BF55CA /* ForeFlightWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7D4132405975700BF55CA /* ForeFlightWeather.xcdatamodeld */; };
 		6EC7D4172405975900BF55CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EC7D4162405975900BF55CA /* Assets.xcassets */; };
 		6EC7D41A2405975900BF55CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC7D4182405975900BF55CA /* LaunchScreen.storyboard */; };
+		6EC7D4532405A84900BF55CA /* FFWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7D4512405A84900BF55CA /* FFWeather.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6EC7D4072405975700BF55CA /* ForeFlightWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForeFlightWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1EB3ED2406240800CA7D10 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		6E1EB3F024062D2E00CA7D10 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		6E1EB3F2240636DE00CA7D10 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		6E1EB3F42406445D00CA7D10 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		6E6FEEFF24065A04002681E7 /* WindsaloftCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WindsaloftCD+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		6E6FEF0024065A04002681E7 /* WindsaloftCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WindsaloftCD+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		6E6FEF0124065A04002681E7 /* ForecastconditionCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForecastconditionCD+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		6E6FEF0224065A04002681E7 /* ForecastconditionCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForecastconditionCD+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		6E6FEF0324065A04002681E7 /* ForecastmainCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForecastmainCD+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		6E6FEF0424065A04002681E7 /* ForecastmainCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForecastmainCD+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		6E6FEF0524065A04002681E7 /* ConditionsCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConditionsCD+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		6E6FEF0624065A04002681E7 /* ConditionsCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConditionsCD+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		6EA9E84024061D5A001FF67B /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		6EA9E84124061D5A001FF67B /* Mos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mos.swift; sourceTree = "<group>"; };
+		6EA9E84224061D5A001FF67B /* WindsAloft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindsAloft.swift; sourceTree = "<group>"; };
+		6EA9E84324061D5A001FF67B /* Conditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conditions.swift; sourceTree = "<group>"; };
+		6EA9E84524061D5A001FF67B /* Supporting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supporting.swift; sourceTree = "<group>"; };
+		6EA9E84624061D5A001FF67B /* WeatherDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDownloader.swift; sourceTree = "<group>"; };
+		6EA9E84824061D5A001FF67B /* Report.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		6EA9E84924061D5A001FF67B /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		6EC7D4072405975700BF55CA /* ForeFlight Wx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ForeFlight Wx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC7D40A2405975700BF55CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EC7D40C2405975700BF55CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6EC7D40E2405975700BF55CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6EC7D4112405975700BF55CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6EC7D4142405975700BF55CA /* ForeFlightWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ForeFlightWeather.xcdatamodel; sourceTree = "<group>"; };
 		6EC7D4162405975900BF55CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EC7D4192405975900BF55CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EC7D41B2405975900BF55CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC7D4522405A84900BF55CA /* FFWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FFWeather.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +79,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E1EB3EF2406245D00CA7D10 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6E1EB3ED2406240800CA7D10 /* UIButton+Extension.swift */,
+				6E1EB3F024062D2E00CA7D10 /* UIViewController+Extension.swift */,
+				6E1EB3F42406445D00CA7D10 /* Double+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6E6FEEFD2406595C002681E7 /* Enitites */ = {
+			isa = PBXGroup;
+			children = (
+				6E6FEEFF24065A04002681E7 /* WindsaloftCD+CoreDataClass.swift */,
+				6E6FEF0024065A04002681E7 /* WindsaloftCD+CoreDataProperties.swift */,
+				6E6FEF0124065A04002681E7 /* ForecastconditionCD+CoreDataClass.swift */,
+				6E6FEF0224065A04002681E7 /* ForecastconditionCD+CoreDataProperties.swift */,
+				6E6FEF0324065A04002681E7 /* ForecastmainCD+CoreDataClass.swift */,
+				6E6FEF0424065A04002681E7 /* ForecastmainCD+CoreDataProperties.swift */,
+				6E6FEF0524065A04002681E7 /* ConditionsCD+CoreDataClass.swift */,
+				6E6FEF0624065A04002681E7 /* ConditionsCD+CoreDataProperties.swift */,
+			);
+			path = Enitites;
+			sourceTree = "<group>";
+		};
+		6EA9E83F24061D5A001FF67B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6EA9E84024061D5A001FF67B /* Forecast.swift */,
+				6EA9E84124061D5A001FF67B /* Mos.swift */,
+				6EA9E84224061D5A001FF67B /* WindsAloft.swift */,
+				6EA9E84324061D5A001FF67B /* Conditions.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6EA9E84424061D5A001FF67B /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				6EA9E84524061D5A001FF67B /* Supporting.swift */,
+				6EA9E84624061D5A001FF67B /* WeatherDownloader.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		6EA9E84724061D5A001FF67B /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				6EA9E84824061D5A001FF67B /* Report.swift */,
+				6EA9E84924061D5A001FF67B /* Weather.swift */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
 		6EC7D3FE2405975700BF55CA = {
 			isa = PBXGroup;
 			children = (
@@ -50,7 +144,7 @@
 		6EC7D4082405975700BF55CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6EC7D4072405975700BF55CA /* ForeFlightWeather.app */,
+				6EC7D4072405975700BF55CA /* ForeFlight Wx.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,16 +152,70 @@
 		6EC7D4092405975700BF55CA /* ForeFlightWeather */ = {
 			isa = PBXGroup;
 			children = (
-				6EC7D40A2405975700BF55CA /* AppDelegate.swift */,
-				6EC7D40C2405975700BF55CA /* SceneDelegate.swift */,
-				6EC7D40E2405975700BF55CA /* ViewController.swift */,
-				6EC7D4102405975700BF55CA /* Main.storyboard */,
-				6EC7D4162405975900BF55CA /* Assets.xcassets */,
-				6EC7D4182405975900BF55CA /* LaunchScreen.storyboard */,
-				6EC7D41B2405975900BF55CA /* Info.plist */,
-				6EC7D4132405975700BF55CA /* ForeFlightWeather.xcdatamodeld */,
+				6EC7D4242405981700BF55CA /* Infrastructure */,
+				6EC7D423240597F800BF55CA /* Models */,
+				6EC7D421240597DD00BF55CA /* Views */,
+				6EC7D422240597EC00BF55CA /* Controllers */,
 			);
 			path = ForeFlightWeather;
+			sourceTree = "<group>";
+		};
+		6EC7D421240597DD00BF55CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6EC7D4102405975700BF55CA /* Main.storyboard */,
+				6EC7D4182405975900BF55CA /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6EC7D422240597EC00BF55CA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6EC7D40E2405975700BF55CA /* ViewController.swift */,
+				6E1EB3F2240636DE00CA7D10 /* DetailVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6EC7D423240597F800BF55CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6EC7D4992405C04900BF55CA /* Weather */,
+				6EC7D4872405AF2200BF55CA /* CoreData */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6EC7D4242405981700BF55CA /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				6EC7D41B2405975900BF55CA /* Info.plist */,
+				6EC7D4162405975900BF55CA /* Assets.xcassets */,
+				6EC7D40A2405975700BF55CA /* AppDelegate.swift */,
+				6EC7D40C2405975700BF55CA /* SceneDelegate.swift */,
+				6E1EB3EF2406245D00CA7D10 /* Extensions */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		6EC7D4872405AF2200BF55CA /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				6E6FEEFD2406595C002681E7 /* Enitites */,
+				6EC7D4512405A84900BF55CA /* FFWeather.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		6EC7D4992405C04900BF55CA /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				6EA9E83F24061D5A001FF67B /* Main */,
+				6EA9E84424061D5A001FF67B /* Supporting */,
+				6EA9E84724061D5A001FF67B /* Top */,
+			);
+			path = Weather;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,7 +235,7 @@
 			);
 			name = ForeFlightWeather;
 			productName = ForeFlightWeather;
-			productReference = 6EC7D4072405975700BF55CA /* ForeFlightWeather.app */;
+			productReference = 6EC7D4072405975700BF55CA /* ForeFlight Wx.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,10 +289,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EC7D4152405975700BF55CA /* ForeFlightWeather.xcdatamodeld in Sources */,
 				6EC7D40F2405975700BF55CA /* ViewController.swift in Sources */,
+				6E6FEF0824065A04002681E7 /* WindsaloftCD+CoreDataProperties.swift in Sources */,
+				6EA9E85124061D5A001FF67B /* Weather.swift in Sources */,
+				6E6FEF0B24065A04002681E7 /* ForecastmainCD+CoreDataClass.swift in Sources */,
+				6E6FEF0E24065A04002681E7 /* ConditionsCD+CoreDataProperties.swift in Sources */,
+				6EA9E84D24061D5A001FF67B /* Conditions.swift in Sources */,
+				6EA9E84C24061D5A001FF67B /* WindsAloft.swift in Sources */,
+				6EA9E85024061D5A001FF67B /* Report.swift in Sources */,
+				6EA9E84A24061D5A001FF67B /* Forecast.swift in Sources */,
+				6E6FEF0A24065A04002681E7 /* ForecastconditionCD+CoreDataProperties.swift in Sources */,
+				6EA9E84B24061D5A001FF67B /* Mos.swift in Sources */,
 				6EC7D40B2405975700BF55CA /* AppDelegate.swift in Sources */,
+				6E1EB3F124062D2E00CA7D10 /* UIViewController+Extension.swift in Sources */,
 				6EC7D40D2405975700BF55CA /* SceneDelegate.swift in Sources */,
+				6EC7D4532405A84900BF55CA /* FFWeather.xcdatamodeld in Sources */,
+				6E6FEF0C24065A04002681E7 /* ForecastmainCD+CoreDataProperties.swift in Sources */,
+				6E1EB3F3240636DE00CA7D10 /* DetailVC.swift in Sources */,
+				6E6FEF0724065A04002681E7 /* WindsaloftCD+CoreDataClass.swift in Sources */,
+				6E6FEF0924065A04002681E7 /* ForecastconditionCD+CoreDataClass.swift in Sources */,
+				6E1EB3F52406445D00CA7D10 /* Double+Extension.swift in Sources */,
+				6EA9E84F24061D5A001FF67B /* WeatherDownloader.swift in Sources */,
+				6E6FEF0D24065A04002681E7 /* ConditionsCD+CoreDataClass.swift in Sources */,
+				6EA9E84E24061D5A001FF67B /* Supporting.swift in Sources */,
+				6E1EB3EE2406240800CA7D10 /* UIButton+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,13 +458,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KG653N5ES4;
-				INFOPLIST_FILE = ForeFlightWeather/Info.plist;
+				INFOPLIST_FILE = ForeFlightWeather/Infrastructure/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.4bitCrew.ForeFlightWeather;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ForeFlight Wx";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,13 +476,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KG653N5ES4;
-				INFOPLIST_FILE = ForeFlightWeather/Info.plist;
+				INFOPLIST_FILE = ForeFlightWeather/Infrastructure/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.4bitCrew.ForeFlightWeather;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ForeFlight Wx";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -344,13 +512,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		6EC7D4132405975700BF55CA /* ForeFlightWeather.xcdatamodeld */ = {
+		6EC7D4512405A84900BF55CA /* FFWeather.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				6EC7D4142405975700BF55CA /* ForeFlightWeather.xcdatamodel */,
+				6EC7D4522405A84900BF55CA /* FFWeather.xcdatamodel */,
 			);
-			currentVersion = 6EC7D4142405975700BF55CA /* ForeFlightWeather.xcdatamodel */;
-			path = ForeFlightWeather.xcdatamodeld;
+			currentVersion = 6EC7D4522405A84900BF55CA /* FFWeather.xcdatamodel */;
+			path = FFWeather.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

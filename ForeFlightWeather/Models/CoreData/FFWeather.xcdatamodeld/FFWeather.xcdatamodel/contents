@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ConditionsCD" representedClassName=".ConditionsCD" syncable="YES">
+        <attribute name="cloudLayers" optional="YES" attributeType="Transformable" customClassName="Data"/>
+        <attribute name="cloudLayersv2" optional="YES" attributeType="Transformable"/>
+        <attribute name="dateIssued" optional="YES" attributeType="String"/>
+        <attribute name="densityAltitudeft" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="dewPointC" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="elevationFt" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="flightRules" optional="YES" attributeType="String"/>
+        <attribute name="ident" optional="YES" attributeType="String"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lon" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="pressureHg" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="relativeHumidity" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="tempC" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+        <attribute name="visibility" optional="YES" attributeType="Transformable"/>
+        <attribute name="weather" optional="YES" attributeType="String"/>
+        <attribute name="wind" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ForecastConditionCD" representedClassName=".ForecastconditionCD" syncable="YES">
+        <attribute name="cloudlayers" optional="YES" attributeType="Transformable"/>
+        <attribute name="cloudlayersv2" optional="YES" attributeType="Transformable"/>
+        <attribute name="dateIssued" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="elevationft" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="flightRules" optional="YES" attributeType="String"/>
+        <attribute name="ident" optional="YES" attributeType="String"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lon" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="periodEnd" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="periodStart" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="relativehumidity" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+        <attribute name="visibility" optional="YES" attributeType="Transformable"/>
+        <attribute name="weather" optional="YES" attributeType="Transformable"/>
+        <attribute name="wind" optional="YES" attributeType="Transformable"/>
+    </entity>
+    <entity name="ForecastMainCD" representedClassName=".ForecastmainCD" syncable="YES">
+        <attribute name="conditions" optional="YES" attributeType="Transformable"/>
+        <attribute name="dateIssued" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="elevationFt" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="ident" optional="YES" attributeType="String"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lon" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="periodEnd" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="periodStart" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="WindsAloftCD" representedClassName=".WindsaloftCD" syncable="YES">
+        <attribute name="dateIssued" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lon" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="periodateEnd" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="perioddateStart" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="validTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="wt0" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt3000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt6000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt9000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt12000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt15000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt18000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt21000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt24000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt27000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt30000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt33000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt36000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt39000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt42000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt45000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt48000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt51000" optional="YES" attributeType="Transformable"/>
+        <attribute name="wt54000" optional="YES" attributeType="Transformable"/>
+    </entity>
+    <elements>
+        <element name="ConditionsCD" positionX="160" positionY="192" width="128" height="298"/>
+        <element name="ForecastConditionCD" positionX="160" positionY="192" width="128" height="268"/>
+        <element name="ForecastMainCD" positionX="160" positionY="192" width="128" height="178"/>
+        <element name="WindsAloftCD" positionX="160" positionY="192" width="128" height="418"/>
+    </elements>
+</model>
